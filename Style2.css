@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("/pexels-pixabay-355465.jpg");
+    background-size: cover;
+
+}
+
+.main{
+    margin-left: 150px;
+    width: 420px;
+    background: transparent;
+    color:rgb(248, 248, 248);
+    border-radius: 20px;
+    padding: 30px 40px 30px 40px;
+}
+
+h2{
+    font-size: 36px;
+    text-align: centre;
+}
+
+.Registeration{
+    position: left;
+    height: 50px;
+    margin-top: 15px;
+
+}
+
+.Registeration input{
+    text-decoration : unset;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(13, 115, 136, 0.873);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(196, 182, 182);
+    padding: 20px 45px 20px 20px; 
+}
+
+.Registeration input::placeholder{
+    color: rgb(171, 162, 234);
+}
+
+.Registeration i{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.logo {
+    background:transparent;
+}
+
+.rem-for{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 15px 0 15px 0;
+    padding-left: 5px;
+    color :rgba(167, 185, 220, 0.858);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover{
+    color : red;
+    background-color: black;
+}
+
+.reg{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.reg a{
+    font-weight: bold;
+}
